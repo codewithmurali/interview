@@ -1,0 +1,58 @@
+.text_container {
+  width: 60vw;
+  margin: auto;
+  
+}
+
+.text_container p {
+  max-width: 400px;
+  
+}
+
+.gradient {
+  background: linear-gradient(to right, #e116cd, #0731ea);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.card_container {
+  width: 70vw;
+  margin: auto;
+  margin-block: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+@media (min-width: 961px) and (max-width: 1200px) {
+  .text_container {
+    width: 80vw;
+  }
+
+  .card_container {
+    width: 90vw;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 960px) {
+  .text_container {
+    width: 90vw;
+  }
+
+  .card_container {
+    width: 90vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .text_container {
+    width: 95vw;
+  }
+
+  .card_container {
+    width: 95vw;
+  }
+}
